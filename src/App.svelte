@@ -31,7 +31,7 @@
   }
 
   onMount(async () => {
-    const res1 = await fetch('/colorcounts.csv');
+    const res1 = await fetch('colorcounts.csv');
     const text1 = await res1.text();
     const lines1 = text1.trim().split('\n');
     dataLyrics = lines1.slice(1).map(line => {
@@ -43,7 +43,7 @@
       };
     });
 
-    const res2 = await fetch('/shakespeare-color-counts.csv');
+    const res2 = await fetch('shakespeare-color-counts.csv');
     const text2 = await res2.text();
     const lines2 = text2.trim().split('\n');
     dataPoems = lines2.slice(1).map(line => {
