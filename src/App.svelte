@@ -227,6 +227,6 @@ h2 {
 
 {#if selectedColor}
   <footer>
-    <em> This project uses the <a href="https://github.com/sarbor/taylor_swift_api"> Taylor Swift Lyrics API created by sarbor</a> and the <a href="https://bridgesdata.herokuapp.com/api/datasets/shakespeare"> Shakespeare Dataset</a>. You can find an explanation of my data analysis <a href="https://github.com/hsellheim/Project-3">here</a>.</em>
+    <em> This project uses the <a href="https://github.com/sarbor/taylor_swift_api"> Taylor Swift Lyrics API created by sarbor</a> and the <a href="https://bridgesdata.herokuapp.com/api/datasets/shakespeare"> Shakespeare Dataset provided by BridgesData</a>. You can find an explanation of my data analysis <a href="https://github.com/hsellheim/svelte-project">here</a>.</em>
   </footer>
 {/if}
