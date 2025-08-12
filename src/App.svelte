@@ -119,7 +119,7 @@ h2 {
       style="border:none;"
     ></iframe><br><br>
 
-    And here is the color palette for every album:<br><br>
+    And here is the color palette for every album - which doesn't really match the color they are usually associated with::<br><br>
     <iframe
       src="https://datawrapper.dwcdn.net/tdYrC/1/"
       width="100%"
@@ -194,7 +194,7 @@ h2 {
       style="border:none;"
     ></iframe><br><br>
 
-   And here is the color palette for every album:<br><br>
+   And here is the color palette for every album - which doesn't really match the color they are usually associated with:<br><br>
     <iframe
       src="https://datawrapper.dwcdn.net/tdYrC/1/"
       width="100%"
