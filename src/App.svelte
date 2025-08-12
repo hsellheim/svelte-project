@@ -93,20 +93,20 @@ h2 {
 
 {#if selectedColor === 'yellow'}
   <p>Taylor Swift never sings about the color <strong style="color: {colors.find(c => c.name === selectedColor)?.code}">{selectedColor}</strong>. :( <br><br>
-  <strong style="color: #c71e1d">Red</strong> seems to be Taylor's favorite color ‐ by far.<br><br>
+  <strong style="color: #004b97">Blue</strong> seems to be Taylor's favorite color.<br><br>
 
     <iframe
       src="https://datawrapper.dwcdn.net/hjWkd/1/"
       width="100%"
-      height="400"
+      height="450"
       frameborder="0"
       scrolling="no"
       title="Color counts"
       aria-label="Bar Chart"
       style="border:none;"
     ></iframe>
-    It's the most prominent color in all of her albums, except for Debut, where it ties with <strong style="color: #004b97">blue</strong>.<br><br>
-    Funnily enough though, <strong style="color: #c71e1d">red</strong> doesn't score most counts in the album "Red", as one might expect, but in "The Tortured Poets Department" instead.<br><br>
+    
+    Funnily enough, <strong style="color: #c71e1d">red</strong> isn't the most prominent color in the album "Red", as one might expect.<br><br>
     Explore how Taylor's usage of colors has developed with each album:<br><br>
     <iframe
       src="https://datawrapper.dwcdn.net/Lbzx7/2/"
@@ -119,9 +119,22 @@ h2 {
       style="border:none;"
     ></iframe><br><br>
 
-  Taylor Swift's most colorful album is "The Tortured Poets Department" with 10 colors in the lyrics. That's surprising given it's grey cover art and marketing.<br><br>
+    And here is the color palette for every album:<br><br>
+    <iframe
+      src="https://datawrapper.dwcdn.net/tdYrC/1/"
+      width="100%"
+      height="300"
+      frameborder="0"
+      scrolling="no"
+      title="Color counts"
+      aria-label="Bar Chart"
+      style="border:none;"
+    ></iframe>
+  Interesting to see how <strong style="color: #c71e1d">red</strong> disappears with "Midnights" and is replaced by <strong style="color: #852d00">brown</strong>.<br>I'm sure there is a point that could be made there about which are love albums and which are break-up albums.<br><br>
+  
+  Taylor Swift's most colorful albums are "Lover" and "The Tortured Poets Department" with 8 colors in their lyrics respectively.<br>The latter seems surprising given its grey cover art and marketing.<br><br>
 
-  In general, lighter colors dominate her lyrics. This is how light and dark colors are distributed across the albums.<br><br>
+  In general, darker colors dominate her lyrics. This is how light and dark colors are distributed across the albums.<br><br>
     <iframe
       src="https://datawrapper.dwcdn.net/iJU7a/1/"
       width="100%"
@@ -133,13 +146,15 @@ h2 {
       style="border:none;"
     ></iframe><br><br>
   
+  I guess "Red" is a pretty dark album?!<br><br>
+  
   For comparison, William Shakespeare writes about <strong style="color: {colors.find(c => c.name === selectedColor)?.code}">{selectedColor}</strong> 
-    <strong>{entryPoems.times}</strong> {pluralize(entryPoems?.times ?? 0, 'time')} in his poems. He also seems to really, really like <strong style="color: #c71e1d">red</strong>.<br><br>
+    <strong>{entryPoems.times}</strong> {pluralize(entryPoems?.times ?? 0, 'time')} in his poems. He is a fan of <strong style="color: black">black</strong>.<br><br>
 
     <iframe
       src="https://datawrapper.dwcdn.net/Y5aBF/1/"
       width="100%"
-      height="380"
+      height="350"
       frameborder="0"
       scrolling="no"
       title="Color counts"
@@ -153,20 +168,20 @@ h2 {
     <strong>{entryLyrics.times}</strong> {pluralize(entryLyrics.times, 'time')} in her lyrics.<br><br>
     It's mentioned most in her album "{entryLyrics.source}".<br><br>
 
-    <strong style="color: #c71e1d">Red</strong> seems to be Taylor's favorite color ‐ by far.<br><br>
+      <strong style="color: #004b97">Blue</strong> seems to be Taylor's favorite color.<br><br>
 
     <iframe
       src="https://datawrapper.dwcdn.net/hjWkd/1/"
       width="100%"
-      height="400"
+      height="450"
       frameborder="0"
       scrolling="no"
       title="Color counts"
       aria-label="Bar Chart"
       style="border:none;"
     ></iframe>
-    It's the most prominent color in all of her albums, except for Debut, where it ties with <strong style="color: #004b97">blue</strong>.<br><br>
-    Funnily enough though, <strong style="color: #c71e1d">red</strong> doesn't score most counts in the album "Red", as one might expect, but in "The Tortured Poets Department" instead.<br><br>
+    
+    Funnily enough, <strong style="color: #c71e1d">red</strong> isn't the most prominent color in the album "Red", as one might expect.<br><br>
     Explore how Taylor's usage of colors has developed with each album:<br><br>
     <iframe
       src="https://datawrapper.dwcdn.net/Lbzx7/2/"
@@ -179,9 +194,23 @@ h2 {
       style="border:none;"
     ></iframe><br><br>
 
-    Taylor Swift's most colorful album is "The Tortured Poets Department" with 10 colors in the lyrics. That's surprising given it's grey cover art and marketing.<br><br>
-    
-    In general, lighter colors dominate her lyrics. This is how light and dark colors are distributed across the albums.<br><br>
+   And here is the color palette for every album:<br><br>
+    <iframe
+      src="https://datawrapper.dwcdn.net/tdYrC/1/"
+      width="100%"
+      height="300"
+      frameborder="0"
+      scrolling="no"
+      title="Color counts"
+      aria-label="Bar Chart"
+      style="border:none;"
+    ></iframe>
+  
+  Interesting to see how <strong style="color: #c71e1d">red</strong> disappears with "Midnights" and is replaced by <strong style="color: #852d00">brown</strong>.<br>I'm sure there is a point that could be made there about which are love albums and which are break-up albums.<br><br>
+  
+  Taylor Swift's most colorful albums are "Lover" and "The Tortured Poets Department" with 8 colors in their lyrics respectively.<br>The latter seems surprising given its grey cover art and marketing.<br><br>
+
+  In general, darker colors dominate her lyrics. This is how light and dark colors are distributed across the albums.<br><br>
     <iframe
       src="https://datawrapper.dwcdn.net/iJU7a/1/"
       width="100%"
@@ -193,13 +222,15 @@ h2 {
       style="border:none;"
     ></iframe><br><br>
 
-    For comparison, William Shakespeare writes about <strong style="color: {colors.find(c => c.name === selectedColor)?.code}">{selectedColor}</strong> 
-    <strong>{entryPoems.times}</strong> {pluralize(entryPoems?.times ?? 0, 'time')} in his poems. He also seems to really, really like <strong style="color: #c71e1d">red</strong>.<br><br>
+  I guess "Red" is a pretty dark album?!<br><br>
+  
+  For comparison, William Shakespeare writes about <strong style="color: {colors.find(c => c.name === selectedColor)?.code}">{selectedColor}</strong> 
+    <strong>{entryPoems.times}</strong> {pluralize(entryPoems?.times ?? 0, 'time')} in his poems. He is a fan of <strong style="color: black">black</strong>.<br><br>
 
     <iframe
       src="https://datawrapper.dwcdn.net/Y5aBF/1/"
       width="100%"
-      height="380"
+      height="350"
       frameborder="0"
       scrolling="no"
       title="Color counts"
